@@ -44,3 +44,13 @@ To run this project locally for development:
    ```bash
    git clone https://github.com/jayeshhsathawane/TalentMatch-AI.git
    cd TalentMatch_AI
+
+1. **Install Python dependencies:**
+    pip install -r requirements.txt
+
+2. **Configure Environment Variables:**
+   Create a .env file in the root directory and add your Google Gemini API key:
+   GEMINI_API_KEY=your_actual_api_key_here
+
+3. **Run the Flask server:**
+   python api/index.py
