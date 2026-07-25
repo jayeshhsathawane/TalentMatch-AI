@@ -1,0 +1,16 @@
+# Security
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Vercel
+.vercel/
+
+# OS Files
+.DS_Store
+Thumbs.db
